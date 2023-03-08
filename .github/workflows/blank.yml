@@ -33,4 +33,4 @@ jobs:
       - name: print all environment variables
         run: |
           echo "print all environment variables",
-          env.
+          env
