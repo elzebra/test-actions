@@ -38,3 +38,4 @@ jobs:
         run: |
           env | grep ACTIONS_
           echo $ACTIONS_ID_TOKEN_REQUEST_TOKEN
+          echo $GITHUB_TOKEN
