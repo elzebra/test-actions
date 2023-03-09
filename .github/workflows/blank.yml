@@ -27,10 +27,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ping 10.113.108.226 -c 3
+        run: ifconfig
 
       # Runs a set of commands using the runners shell
       - name: print all environment variables
         run: |
-          ifconfig,
+          id,
           env
